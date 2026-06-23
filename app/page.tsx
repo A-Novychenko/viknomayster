@@ -31,7 +31,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-6">
             <div className="hidden md:flex flex-col text-right text-sm">
-              <span className="font-semibold text-gray-900">+380 63 613 94 94</span>
+              <span className="font-semibold text-gray-900">+380 00 000 00 00</span>
               {/* <span className="font-semibold text-gray-900">+380 77 033 27 70</span> */}
               <span className="text-gray-500 text-xs">БЕЗ ВИХІДНИХ 09:00-21:00</span>
             </div>
