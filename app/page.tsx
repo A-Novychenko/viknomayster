@@ -5,7 +5,7 @@ export default function Home() {
     { title: "Заміна склопакета", time: "20 хвилин", icon: "🪟" },
     { title: "Регулювання вікон", time: "15-20 хвилин", icon: "🔧" },
     { title: "Заміна ущільнювача", time: "60 хвилин", icon: "💨" },
-    { title: "Ремонт та заміна ручок", time: "10 хвилин", icon: "🚪" },
+    { title: "Ремонт та заміна ручок", time: "10 хвилин", icon: "\u2532" },
     { title: "Утеплення та герметизація", time: "від 30 хвилин", icon: "🌡️" },
     { title: "Відновлення геометрії", time: "від 30 хвилин", icon: "📐" },
     { title: "Заміна фурнітури", time: "від 15 хвилин", icon: "⚙️" },
@@ -60,7 +60,7 @@ export default function Home() {
             Ремонт та встановлення вікон <br className="hidden lg:block" /> у Києві та передмісті
           </h1>
           <p className="text-lg sm:text-xl mb-12 max-w-3xl mx-auto text-blue-100/90 font-light leading-relaxed drop-shadow-xs">
-            Ремонт віконних конструкцій у зручний для вас час з гарантією. Безкоштовний виїзд майстра додому в день звернення протягом 1 години.
+            Ремонт віконних конструкцій у зручний для вас час з гарантією. 
           </p>
           
           <div className="flex justify-center mb-20">
@@ -72,7 +72,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
             {[
               { title: "Будь-який графік", desc: "Підлаштуємося під вас - виїжджаємо у вечірній час та вихідний день." },
-              { title: "Величезний досвід", desc: "Вирішимо будь-яку проблему - відремонтували 11 217 вікон за 8 років роботи." },
+           { title: "Практичний досвід", desc: "Багаторічна робота з ремонтом та обслуговуванням вікон із стабільною якістю виконання." },
               { title: "Якісні комплектуючі", desc: "Використовуємо перевірену фурнітуру та ущільнювачі від надійних виробників." },
               { title: "Оперативність", desc: "Ремонтуємо 90% віконних поломок безпосередньо у день звернення." }
             ].map((benefit, i) => (
@@ -100,7 +100,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, index) => (
               <div key={index} className="bg-white p-6 rounded-2xl shadow-xs hover:shadow-xl hover:-translate-y-1 transition duration-300 border border-gray-100 flex flex-col h-full group">
-                <div className="text-4xl mb-5 group-hover:scale-110 transition duration-200 origin-left">{service.icon}</div>
+                <div className="text-4xl mb-5 group-hover:scale-110 transition duration-200 origin-left text-black">{service.icon}</div>
                 <h3 className="text-xl font-bold mb-3 text-gray-900 tracking-tight grow">{service.title}</h3>
                 <div className="text-xs font-semibold text-blue-700 mb-5 bg-blue-50/70 inline-block px-3 py-1.5 rounded-lg border border-blue-100/50 w-max">
                   ⏳ Час робіт: {service.time}
